@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+h1 {
+    display: block;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.sprint_1 {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.lesson_1 {
+    position: relative;
+    margin-left: 40px;
+    width: 450px;
+    height: 200px;
+    background: white;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.3);
+    border-top: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(1rem);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 1);
+}
+
+.lesson_2 {
+    position: relative;
+    margin-left: 40px;
+    width: 450px;
+    height: 200px;
+    background: white;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.3);
+    border-top: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(1rem);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 1);
+}
+
+.lesson_3 {
+    position: relative;
+    margin-left: 40px;
+    width: 450px;
+    height: 200px;
+    background: white;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.3);
+    border-top: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(1rem);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 1);
+}
+
+.block_one {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 25px;
+}
+
+.btn {
+    display: inline-block;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 30px;
+    margin-left: 20px;
+    padding: 40px 40px;
+    border: 1px solid  green;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    line-height: 0px;
+}
