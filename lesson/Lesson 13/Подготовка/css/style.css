@@ -1,0 +1,66 @@
+.one {
+    color: black;
+}
+.one:hover {
+    color: red;
+}
+
+.two {
+    color: black;
+}
+
+.two:hover {
+    color: green;
+}
+a:active {
+    color:hotpink;
+}
+
+ul li:first-child{
+    color: red;
+}
+
+ul li:last-child{
+    color: green;
+}
+
+div :first-of-type {
+    background-color:green;
+}
+:last-of-type{
+    color:white;
+}
+
+ul{
+    color: black;
+}
+
+li {
+    color: black;
+}
+
+.c:nth-child(2) {
+    background-color: yellow;
+}
+
+.c:nth-child(5) {
+    background-color: yellowgreen;
+}
+
+.b:nth-child(odd) {
+    background: cornflowerblue;
+}
+
+.b:nth-child(even) {
+    background-color: coral;
+}
+
+ul :not(.not-color) {
+    color:red;
+}
+
+
+
+
+
+
