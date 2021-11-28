@@ -10,6 +10,12 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body background="img/one.jpg">
+
+    <div id="scrollbar"></div>
+    <div id="scrollPath"></div>
+    <section>
+
+
     <h1>My works</h1>
     <p>Sprint 1-5</p>
 
@@ -124,6 +130,16 @@
             </div>
         </div>
     </div>
+
+    </section>
+    <script type="text/javascript">
+        let progress = document.getElementById('scrollbar');
+        let totalHeight = document.body.scrollHeight - window.innerHeight;
+        window.onscroll = function(){
+            let progressHeight = (window.pageYOffset / totalHeight) * 100;
+            progress.style.height = progressHeight + "%";
+        }
+    </script>
     
 </body>
 </html>
