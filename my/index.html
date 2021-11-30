@@ -9,21 +9,39 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body background="img/one.jpg">
-    <h1>My works</h1>
-
-    <div class="side-menu">
-        <div class="toggle-btn fas fa-light fa-bars"></div>
-        <a href="#">Home</a>
-
-        <a href="index.html">My</a>
-    </div>
-
-    <script>
-        $(".toggle-btn").click(function(){
-            $(".side-menu").toggleClass("active");
-        });
-    </script>
+<body>
+    <section>
+        <div class="container">
+           <div class="navigation">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="document"></ion-icon></span>
+                            <span class="title">My works</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="file:///G:/html/job_one/index.html">
+                            <span class="icon"><ion-icon name="home"></ion-icon></span>
+                            <span class="title">Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="my/index.html">
+                            <span class="icon"><ion-icon name="brush"></ion-icon></span>
+                            <span class="title">My project</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="call"></ion-icon></span>
+                            <span class="title">Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
     <div class="conteiner">
         <div class="sprint_1">
@@ -36,6 +54,25 @@
             </div>
         </div>
     </div>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <script>
+        let list = document.querySelectorAll('.navigation li');
+        function activeLink(){
+            list.forEach((item) => 
+            item.classList.remove('hovered'));
+            this.classList.add('hovered');
+        }
+        list.forEach((item) => 
+        item.addEventListener('mouseover,activeLink'));
+    </script>
+
+<script>
+    $(".toggle-btn").click(function(){
+        $(".side-menu").toggleClass("active");
+    });
+</script>
     
 </body>
 </html>
