@@ -177,61 +177,6 @@ p {
     box-shadow: 0 15px 25px rgba(0, 0, 0, 1);
 }
 
-.lesson {
-    position: relative;
-    margin-left: 40px;
-    width: 450px;
-    height: 200px;
-    background: white;
-    border-radius: 10px;
-    background: rgba(255,255,255,0.3);
-    border-top: 1px solid rgba(255,255,255,0.5);
-    backdrop-filter: blur(1rem);
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 1);
-}
-
-.lesson {
-    position: relative;
-    margin-left: 40px;
-    width: 450px;
-    height: 200px;
-    background: white;
-    border-radius: 10px;
-    background: rgba(255,255,255,0.3);
-    border-top: 1px solid rgba(255,255,255,0.5);
-    backdrop-filter: blur(1rem);
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 1);
-}
-
-.lesson {
-    position: relative;
-    margin-top: 40px;
-    margin-left: 40px;
-    width: 450px;
-    height: 200px;
-    flex-direction: column;
-    background: white;
-    border-radius: 10px;
-    background: rgba(255,255,255,0.3);
-    border-top: 1px solid rgba(255,255,255,0.5);
-    backdrop-filter: blur(1rem);
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 1);
-
-}
-
-.lesson {
-    position: relative;
-    margin-top: 40px;
-    margin-left: 40px;
-    width: 450px;
-    height: 200px;
-    background: white;
-    border-radius: 10px;
-    background: rgba(255,255,255,0.3);
-    border-top: 1px solid rgba(255,255,255,0.5);
-    backdrop-filter: blur(1rem);
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 1);
-}
 
 .block_one {
     display: flex;
