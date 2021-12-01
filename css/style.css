@@ -137,18 +137,12 @@ body {
     background-size: cover;
 }
 
-h1 {
-    display: block;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-}
-
-p {
+h3 {
+    margin-left: 90%;
     display: block;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: whitesmoke;
+    color: white;
 }
-
 
 .sprint_1 {
     max-width: 1570px;

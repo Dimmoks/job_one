@@ -130,20 +130,15 @@ body {
     pointer-events: none;
 }
 
-h1 {
+h3 {
+    margin-left: 90%;
     display: block;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
 }
 
-p {
-    display: block;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: whitesmoke;
-}
-
 .sprint_1 {
-    max-width: 1548px;
+    max-width: 1570px;
     margin: 15rem auto;
     border-radius: 20px;
     background-color: white;
@@ -154,6 +149,21 @@ p {
     box-shadow: 0 15px 25px rgba(0, 0, 0, 1);
     display: flex;
     flex-wrap: wrap;
+}
+
+.sprint_2 {
+    max-width: 1570px;
+    margin: -13rem auto;
+    border-radius: 20px;
+    background-color: white;
+    padding: 30px;
+    background: rgba(255,255,255,0.3);
+    border-top: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(1rem);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 1);
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 .lesson {
