@@ -166,6 +166,7 @@ p {
 
 .lesson {
     position: relative;
+    margin-top: 40px;
     margin-left: 40px;
     width: 450px;
     height: 200px;
