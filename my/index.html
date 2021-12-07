@@ -10,41 +10,33 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <section>
-        <div class="container">
-           <div class="navigation">
+  
+    <nav>
+        <div class="logo">My work</div>
+        <ul>
+            <li>
+                <a href="file:///H:/html/job_one/index.html">Home</a>
+            </li>
+            <li>
+                <a href="#">Sprint</a>
                 <ul>
-                    <li>
-                        <a href="#">
-                            <span class="icon"><ion-icon name="document"></ion-icon></span>
-                            <span class="title">My works</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="file:///G:/html/job_one/index.html">
-                            <span class="icon"><ion-icon name="home"></ion-icon></span>
-                            <span class="title">Home</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="index.html">
-                            <span class="icon"><ion-icon name="brush"></ion-icon></span>
-                            <span class="title">My lab</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="file:///G:/html/job_one/Contact/cont.html">
-                            <span class="icon"><ion-icon name="call"></ion-icon></span>
-                            <span class="title">Contact</span>
-                        </a>
-                    </li>
+                    <li><a href="#">My site</a></li>
+                    <li><a href="#">New year</a></li>
                 </ul>
-            </div>
-        </div>
+            </li>
+            <li>
+                <a href="my/index.html">My lab</a>
+            </li>
+            <li>
+                <a href="Contact/cont.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
 
+    <h3 class="hh3">Site version 2.0.10</h3>
+
+    <section class="background_animh">
     </section>
-
-    <h3 class="hh3">Site version 1.8.0</h3>
 
     <br>
 
@@ -71,17 +63,42 @@
         </div>
     </div>
 
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>  
+
+    <script type="text/javascript">
+        let progress = document.getElementById('scrollbar');
+        let totalHeight = document.body.scrollHeight - window.innerHeight;
+        window.onscroll = function(){
+            let progressHeight = (window.pageYOffset / totalHeight) * 100;
+            progress.style.height = progressHeight + "%";
+        }
+    </script>
 
     <script>
-        let list = document.querySelectorAll('.navigation li');
-        function activeLink(){
-            list.forEach((item) => 
-            item.classList.remove('hovered'));
-            this.classList.add('hovered');
+        function bubbles() {
+            var count = 200;
+            var section = document.querySelector('section');
+            var i = 0;
+            while (i < count) {
+                var bubble = document.createElement('i');
+                var x = Math.floor(Math.random() * window.innerWidth);
+                var y = Math.floor(Math.random() * window.innerHeight);
+
+                var size = Math.random() * 10;
+                bubble.style.left = x+'px';
+                bubble.style.top = y+'px';
+                bubble.style.width = 1+size+'px';
+                bubble.style.height = 1+size+'px';
+
+                bubble.style.animationDuration = 5+size+'s';
+                bubble.style.animationDelay = -size+'s';
+
+                section.appendChild(bubble);
+                i++
+            }
         }
-        list.forEach((item) => 
-        item.addEventListener('mouseover,activeLink'));
+        bubbles()
+    </script>
 
     
 </body>
