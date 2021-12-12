@@ -35,3 +35,16 @@
     margin-left: -15px;
     position: relative;
 }
+
+.uk-button {
+    margin-top: -20px;
+    float: right;
+}
+
+.uk-progress {
+    margin-top: -30px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20px;
+    width: 90%;
+}
