@@ -25,6 +25,7 @@ body {
 }
 
 #left  {
+    margin-top: 40%;
     font-size: 5vw;
     padding: .5vw;
     background: white;
@@ -58,8 +59,36 @@ body {
     padding: 1rem;
 }
 
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
 p {
     font-size: 30px;
 }
 
+button {
+    background-color: #fff;
+    border: 1px solid #333;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    height: 5rem;
+    width: 20rem;
+}
 
+.left {
+    background-color: #fff;
+    border: 1px solid #333;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    height: 5rem;
+    width: 27rem;
+}
