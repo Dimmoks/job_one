@@ -92,3 +92,41 @@ button {
     height: 5rem;
     width: 27rem;
 }
+
+.imgj {
+    margin-top: -34%;
+    border: 3px solid white;
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+}
+
+.imgj2 {
+    margin-top: -12%;
+    border: 3px solid white;
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+}
+
+.imgj3 {
+    margin-top: -9%;
+    border: 3px solid white;
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+}
+.imgj4 {
+    margin-top: -9%;
+    border: 3px solid white;
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+}
+
+@media (max-width:768px) {
+    #grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
