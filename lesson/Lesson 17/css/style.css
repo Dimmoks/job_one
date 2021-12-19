@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn-333 {
+    background-color: #543522;
+}
+
+.logo {
+    height: 60px;
+    width: 70px;
+
+}
+
+.ml-4 {
+    height: 40px;
+    width: 100px;
+    margin-top: -49.1rem;
+    margin-left: 86.21%;
+  }
+
+  .ml-3 {
+    height: 40px;
+    width: 100px;
+    margin-top: -49.3rem;
+    margin-left: 86.21%;
+  }
+
+  .label-top {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    background-color: #ffc107;
+    border-radius: 2px;
+    width: 5.5rem;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}

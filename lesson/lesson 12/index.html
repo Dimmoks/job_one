@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <main class="panel">
+        <div class="links">
+            <h2>мы тут</h2>
+            <a href="#">f</a>
+            <a href="#">t</a>
+            <a href="#">w</a>
+        </div>
+        <div class="panel__mine half--one">
+            <h2>Регистрация</h2>
+            <p>Заполните форму для регистрации</p>
+            <form class="input" id="contact-form">
+                <input type="hidden" name="contact_number">
+                <input type="text" placeholder="Электонная почта" name="mail">
+                <input type="tel" id="phone" name="phone" placeholder="Номер телефона" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="">
+                <p>О себе...</p>
+                <textarea id="story" name="message" rows="5" cols="33"></textarea>
+            </form>
+            <a href="#">помощь</a>
+            <button class="btn-contact">зарегаться</button>
+        </div>
+        <div class="panel__mine half--two">
+            <h2>Приветствуем!</h2>
+            <p>Ты попал на наш сайт!</p>
+            <button>
+                <svg class="svg-inline--fa fa-long-arrow-alt-left fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="long-arrow-alt-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M134.059 296H436c6.627 0 12-5.373 12-12v-56c0-6.627-5.373-12-12-12H134.059v-46.059c0-21.382-25.851-32.09-40.971-16.971L7.029 239.029c-9.373 9.373-9.373 24.569 0 33.941l86.059 86.059c15.119 15.119 40.971 4.411 40.971-16.971V296z"></path></svg>
+            </button>
+        </div>
+    </main>
+</body>
+</html>

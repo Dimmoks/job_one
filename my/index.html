@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  
+    <nav>
+        <div class="logo">My work</div>
+        <ul>
+            <li>
+                <a href="file:///H:/html/job_one/index.html">Home</a>
+            </li>
+            <li>
+                <a href="#">Sprint</a>
+                <ul>
+                    <li><a href="#">My site</a></li>
+                    <li><a href="#">New year</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="my/index.html">My lab</a>
+            </li>
+            <li>
+                <a href="Contact/cont.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h3 class="hh3">Site version 2.0.10</h3>
+
+    <section class="background_animh">
+    </section>
+
+    <br>
+
+
+    <div class="conteiner">
+        <div class="sprint_1">
+            <h1 class="head_spr1">My site</h1>
+            <div class="lesson">
+                <div class="block_one">
+                    <h1 class="block_text">My first site (version 0.9.1)</h1>
+                    <a class="btn" href="one/index.html">Viev</a>
+                </div>
+            </div>
+        </div>
+        <div class="sprint_2">
+            <h1 class="head_spr1">New year
+            </h1>
+            <div class="lesson">
+                <div class="block_one">
+                    <h1 class="block_text">New year (0.1.0)</h1>
+                    <a class="btn" href="one/index.html">Viev</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>  
+
+    <script type="text/javascript">
+        let progress = document.getElementById('scrollbar');
+        let totalHeight = document.body.scrollHeight - window.innerHeight;
+        window.onscroll = function(){
+            let progressHeight = (window.pageYOffset / totalHeight) * 100;
+            progress.style.height = progressHeight + "%";
+        }
+    </script>
+
+    <script>
+        function bubbles() {
+            var count = 200;
+            var section = document.querySelector('section');
+            var i = 0;
+            while (i < count) {
+                var bubble = document.createElement('i');
+                var x = Math.floor(Math.random() * window.innerWidth);
+                var y = Math.floor(Math.random() * window.innerHeight);
+
+                var size = Math.random() * 10;
+                bubble.style.left = x+'px';
+                bubble.style.top = y+'px';
+                bubble.style.width = 1+size+'px';
+                bubble.style.height = 1+size+'px';
+
+                bubble.style.animationDuration = 5+size+'s';
+                bubble.style.animationDelay = -size+'s';
+
+                section.appendChild(bubble);
+                i++
+            }
+        }
+        bubbles()
+    </script>
+
+    
+</body>
+</html>

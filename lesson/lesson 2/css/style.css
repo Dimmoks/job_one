@@ -1,0 +1,28 @@
+body{
+    background-color:gold;
+}
+H1{
+    color: black;
+    text-align: center;
+}
+table{
+    border: 1px solid gold;
+    background-color: gold;
+    background-size: 400px;
+    width: 400px;
+    margin-left: 38%;
+}
+
+th{
+border: 1px solid black;
+border-radius: 30px;
+}
+
+td{ 
+border: 1px solid black;
+border-radius: 30px;
+}
+th:hover{
+    background-color:darkorange;
+}
+

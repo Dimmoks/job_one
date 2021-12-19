@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: block;
+    margin: 8px;
+}
+div {
+    display: block;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: chocolate;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 10px;
+}
+
+.box1 {
+    position: static;
+    background: salmon;
+    height: 200px;
+}
+
+.box2 {
+    position: relative;
+    background: sandybrown;
+    top: 900px;
+    left: 50px;
+}
+
+.box3 {
+    position: fixed;
+    background: chocolate;
+    top: 600px;
+    left: 200px;
+}
+
+.box4 {
+    position: absolute;
+    background: coral;
+    top: 200px;
+    left: 50px;
+}
+
+.box5 {
+    position: sticky; top: 10px;
+    background: burlywood;
+    top: 600px;
+    left: 400px;
+}
+
+.flag {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.japan {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: darkred;
+}
+
+.logo {
+    width: 400px;
+    height: 400px;
+    background: red;
+    margin: auto;
+    position: static;
+    top: 140px;
+    right: 0;
+    border-radius: 100px;
+}
+
+.logo2 {
+    
+    position: relative; top: 50px; left: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: white;
+}
+
+.logo3 {
+    position: relative; top: 50px; left: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: red;
+}
+h1 {
+    text-align: center;
+}
