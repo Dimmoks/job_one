@@ -1,0 +1,843 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Noto+Sans&family=Open+Sans:wght@400;600&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/*Верхнее меню */
+.top-menu {
+    background: #fff;
+    height: 70px;
+    border-top: 1px solid #D0D0D0;
+    border-bottom: 1px solid #D0D0D0;
+    
+}
+
+.top-menu ul {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.top-menu ul li {
+    display: inline-block;
+    height: 40px;
+}
+
+.top-menu ul li a {
+    font-family: 'Roboto', sans-serif;
+    color: #616161;
+    font-size: 15px;
+    margin-left: 60px;
+}
+
+.top-menu ul ul {
+    text-align: center;
+    width: 14rem;
+    margin-left: 54px;
+    margin-top: 16.5px;
+    border-top: 4px solid #DD4053;
+    position: absolute;
+    background: #FFFFFF;
+    display: none;
+    z-index: 2;
+}
+
+.top-menu ul li:hover > ul {
+    display: block;
+}
+
+.top-menu ul ul li {
+    display: block;
+    height: 32px;
+    border: 0.5px solid #D0D0D0;
+}
+
+.top-menu ul ul li a {
+    color: #616161;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    margin: 0 auto;
+    font-size: 11px;
+    top: 5px;
+}
+
+.top-menu ul ul li a:hover {
+    color: #DD4053;
+    transition: 0.4s;
+}
+
+.ion {
+    margin-bottom: 2px;
+    margin-left: 7px;
+    height: 6px;
+    width: 7px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ion-icon {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    margin-top: -1px;
+    margin-left: -1.3rem;
+  }
+
+  .line-blog-nav {
+    height: 3px;
+    width: 55px;
+    background: #DD4053;
+    position: absolute;
+    margin-top: 19px;
+    margin-left: 54px;
+}
+
+/* Информационное верхнее меню */
+
+.top-menu-info-container {
+    width: 1420px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.top-info {
+    display: inline-grid;
+    width: 100%;
+    height: 100px;
+    margin-left: -1.6rem;
+}
+
+.top-logo {
+    position: static;
+    width: 131px;
+    height: 72px;
+    margin-top: 1rem;
+    margin-left: 6.5rem;
+} 
+
+/*Стенки*/
+.wall {
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: 15.8rem;
+    width: 0.5px;
+    height: 50px;
+    border: 0.5px solid #E2E2E2;
+}
+
+.wall1 {
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: 21.6rem;
+    width: 0.5px;
+    height: 50px;
+    border: 0.5px solid #E2E2E2;
+}
+
+.wall2 {
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: 30rem;
+    width: 0.5px;
+    height: 50px;
+    border: 0.5px solid #E2E2E2;
+}
+
+.wall3 {
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: 38.4rem;
+    width: 0.5px;
+    height: 50px;
+    border: 0.5px solid #E2E2E2;
+}
+
+.wall4 {
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: 53.4rem;
+    width: 0.5px;
+    height: 50px;
+    border: 0.5px solid #E2E2E2;
+}
+
+/*Курсы*/
+.curs {
+    position: absolute;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #393939;
+    margin-left: 23.7rem;
+    margin-top: 1.7rem;
+}
+
+/*Язык*/
+
+.lau {
+    position: absolute;
+    margin-top: 1.19rem;
+    margin-left: 17.6rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+    text-align: center;
+}
+
+.ru {
+    color: #FFFFFF;
+    background: #4AD295;
+    padding: 0.5px 7px;
+    border-radius: 10%;
+}
+
+/*Иконки*/
+
+.social {
+    margin-top: 2.5px;
+    position: absolute;
+    margin-left: 30.5rem;
+}
+
+/*Настройка иконок*/
+.soc-img {
+    margin-top: 2rem;
+    margin-left: 15px;
+}
+
+/*Иконка ютуба*/
+.yt {
+    margin-bottom: 3px;
+    width: 18.75px;
+    height: 13.13px;
+}
+
+.in {
+    width: 20px;
+    height: 20px;
+}
+
+.fb {
+    width: 10px;
+    height: 20px;
+    margin-bottom: 1px;
+}
+
+/*Контактные номера*/
+.number {
+    position: absolute;
+    margin-top: 1.9rem;
+    margin-left: 40.1rem;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.phone {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: -1.55rem;
+}
+
+/*Таблички*/
+.mais {
+    position: absolute;
+    background-color: #EFF3F6;
+    Width: 205px;
+    Height: 55px;
+    border-radius: 2px;
+    margin-top: 1.3rem;
+    margin-left: 55.3rem;
+}
+.mais-t {
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 18px;
+    margin-left: 18px;
+}
+
+.mais-ri {
+    position: absolute;
+    background-color: #DD4053;
+    border-radius: 2px;
+    margin-left: 11.6rem;
+    Width: 55px;
+    Height: 55px;
+
+}
+
+.tabg {
+    margin-top: 15.6px;
+    margin-left: 15.5px;
+    height: 24px;
+    width: 24px;
+}
+
+.tour {
+    position: absolute;
+    background-color: #EFF3F6;
+    Width: 170px;
+    Height: 55px;
+    border-radius: 2px;
+    margin-top: 1.3rem;
+    margin-left: 72.4rem;
+}
+
+.tour-t {
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 17px;
+    margin-left: 24px;
+}
+
+.tour-ri {
+    position: absolute;
+    background-color: #4AD295;
+    border-radius: 2px;
+    margin-left: 10.5rem;
+    Width: 55px;
+    Height: 55px;
+
+}
+
+.search {
+    margin-top: 12px;
+    margin-left: 13.2px;
+    height: 29px;
+    width: 30px;
+}
+
+.lev {
+    height: 1123px;
+    width: 1440px;
+    background-color: #FFFFFF;
+}
+
+.main_cont{
+    display: flex;
+    padding: 30px 115px  0;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 12px;
+    color: #969696;
+    transition: 0.4s;
+}
+
+.main_cont:hover {
+    color: #232323;
+    transition: 0.4s;
+}
+
+.mc-d {
+    margin-left: 10px;
+}
+
+.m-cont {
+    color: #232323;
+    margin-left: 10px;
+}
+
+.glav-mc {
+    color: #969696;
+}
+
+.glav-mc:hover {
+    color: #232323;
+}
+
+.avia-mc {
+    color: #969696;
+    margin-left: 10px;
+}
+
+.avia-mc:hover {
+    color: #232323;
+}
+
+.head-text {
+    font-size: 31px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 42px;
+    margin-top: 48px;
+    margin-left: 115px;
+}
+
+.avia-img {
+    margin-top: 44px;
+    margin-left: 94px;
+}
+
+.button {
+    margin-left: 485px;
+    margin-top: -565px;
+}
+
+.button1 {
+    height: 84px;
+    width: 800px;
+}
+
+.b1-item {
+    border-bottom: 1px solid #969696;
+}
+
+.but-input {
+    appearance: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+.but-title {
+    display: flex;
+    cursor: pointer;
+    padding: 27px 1px;
+}
+
+.but-title:hover .sqare {
+    background-color: #DD4053;
+}
+
+.but-title:hover .sqare .sqare-text{
+    color: #fff;
+}
+
+.head-text-button1 {
+    margin-left: 10px;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #323232;
+}
+
+.but-inside {
+    display: none;
+    font-size: 14px;
+    padding: 0 16px;
+}
+
+.but-input:checked ~ .but-title .sqare {
+    background-color: #DD4053;
+}
+
+.but-input:checked ~ .but-title .sqare .sqare-text{
+    color: #fff;
+}
+
+.but-input:checked ~ .but-inside {
+    display: block;
+}
+
+.but-input:checked ~ .lev {
+    height: 1300px;
+}
+
+.sqare {
+    height: 25px;
+    width: 25px;
+    background-color: #F8F8F8;
+    margin-left: 2px;
+}
+
+.sqare-text {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #323232;
+    margin-left: 7px;
+    margin-top: 4px;
+}
+
+.gab {
+    position: absolute;
+    height: 25.5px;
+    width: 7.36px;
+    margin-left: 765px;
+}
+
+.pre-head-text-b1-i {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #323232;
+}
+
+.info-company-city {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #323232;
+    margin-top: 15px;
+}
+
+.date-bort {
+    margin-top: 20px;
+    display: flex;
+}
+
+.sqare-db {
+    width: 7px;
+    height: 7px;
+    background-color: #DD4053;
+    margin-top: 7px;
+}
+
+.date-bort-text {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #4F4F4F;
+    margin-left: 30px;
+}
+
+.block-timetable {
+    height: 150px;
+    width: 714px;
+    background-color: #F8F8F8;
+    margin-top: 25px;
+}
+
+.btt-head-text {
+    position: absolute;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #4F4F4F;
+    margin-top: 20px;
+    margin-left: 37px;
+}
+
+.btt-text1 {
+    position: absolute;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #4F4F4F;
+    margin-top: 50px;
+    margin-left: 37px;
+}
+
+.btt-text2 {
+    position: absolute;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #4F4F4F;
+    margin-top: 101px;
+    margin-left: 37px;
+}
+
+.block-vip {
+    margin-top: 20px;
+    height: 235px;
+    width: 714px;
+    border: 1px solid #D0D0D0;
+}
+
+
+.btt-line {
+    position: absolute;
+    height: 1px;
+    width: 640px;
+    background-color: #E3E3E3;
+    margin-left: 37px;
+    margin-top: 90px;
+}
+
+.bv-head-text {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #323232;
+    margin-top: 20px;
+    margin-left: 37px;
+    position: absolute;
+}
+
+.bv-text1 {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #4F4F4F;
+    margin-top: 56px;
+    margin-left: 37px;
+}
+
+
+.bv-text2 {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #4F4F4F;
+    margin-top: 19px;
+    margin-left: 37px;
+}
+
+.button-flex-tb {
+    display: flex;
+    margin-top: 30px;
+}
+
+.button-tour-horv {
+    width: 237px;
+    height: 50px;
+    background-color: #DD4053;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.bth-text {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-left: 45px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.button-tour-horv:hover {
+    background-color: #DD2030;
+}
+
+.button-buy-online {
+    height: 48px;
+    width: 234px;
+    border: 1px solid #DD4053;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.bbo-text {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #DD4053;
+    margin-top: 15px;
+    margin-left: 53px;
+    position: absolute;
+}
+
+.button-buy-online:hover {
+    background-color: #DD2030;
+}
+
+
+.button-buy-online:hover .bbo-text {
+    color: #FFFFFF;
+}
+
+.ot-1-g-1 {
+    height: 50px;
+    width: 1px;
+}
+
+.lower_menu {
+    width: 1440px;
+    height: 260px;
+    background-color: rgb(248, 248, 248);
+}
+.lower_inform_block {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 70px;
+    margin: 0px auto;
+}
+.logo_end {
+    width: 155px;
+    height: 85px;
+    color: rgb(62, 62, 62);
+    margin-left: 20px;
+}
+.other_inform {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+.hotel {
+    width: 115px;
+    height: 80px;
+    text-align: left;
+}
+.hotel > a {
+    font-size: 15px;
+    color: #3E3E3E;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 19.46px;
+}
+.about {
+    width: 75px;
+    height: 80px;
+    text-align: left;
+}
+.about > a {
+    font-size: 15px;
+    color: #3E3E3E;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 19.46px;
+}
+.schedule {
+    width: 145px;
+    height: 80px;
+    display: block;
+}
+
+.rezim {
+    color: #3E3E3E;
+    opacity: 0.5;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.schedule-text {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #3E3E3E;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.schedule > a {
+    color: rgb(62, 62, 62);
+}
+.grey >a{
+    margin: 5px;
+    color: rgb(211, 211, 211);
+}
+.numbers {
+    width: 170px;
+    height: 80px;
+    text-align: left;
+}
+.numbers > a {
+    color: rgb(62, 62, 62);
+}
+
+.phone-num {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #3E3E3E;
+}
+
+.ot {
+    margin-top: 5px;
+}
+
+.contact {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #3E3E3E;
+    opacity: 0.5;
+    margin-top: 25px;
+    position: absolute;
+    
+}
+
+.line_end {
+    width: 1280px;
+    height: 1px;
+    background-color: rgba(29, 29, 29, 0.2);
+    margin: 0px auto;
+}
+.networks {
+    width: 1200px;
+    color: rgba(62, 62, 62, 0.5);
+    display: flex;
+    justify-content: space-between;
+    margin: 15px auto 0px;
+}
+
+.networks-p-text {
+    margin-left: -20px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: rgba(62, 62, 62, 0.5);
+}
+
+.text_one{
+    color: #232323;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 42px;
+    padding: 0 20px  0 ;
+}
+.text_two{
+    font-size: 12px;
+    line-height: 12px;
+    color: #848484;
+    padding: 20px;
+}
+.text_three{
+    font-size: 16px;
+    line-height: 26px;
+    color:  #323232;
+    padding: 0 20px 0;
+}
+.text_four{
+    color:  #848484;
+    font-size: 12px;
+    line-height: 12px;
+    margin: 40px 20px 20px;
+}
+.text_five{
+    font-size: 16px;
+    line-height: 26px;
+    color:  #323232;
+    margin: 0 20px 5px;
+   
+}
+
+.text_six{
+    margin: 60px 20px 20px;
+    color: #848484;
+    font-size: 12px;
+    line-height: 12px;
+}
+.text_seven{
+    color: #323232;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 20px;
+}
+.grey >a{
+    color: rgb(182, 182, 182);
+}
+
+
+
+.ic {
+    margin-left: 15px;
+}
+
+.i-yt {
+    margin-bottom: 2.5px;
+}
