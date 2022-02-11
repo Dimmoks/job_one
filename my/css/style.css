@@ -183,7 +183,20 @@ section i:nth-child(even) {
     box-shadow: 0 15px 25px rgba(0, 0, 0, 1);
     display: flex;
     flex-wrap: wrap;
+}
 
+.sprint_3 {
+    max-width: 1570px;
+    margin: 17.8rem auto;
+    border-radius: 20px;
+    background-color:var(--black2);
+    padding: 30px;
+    background: rgba(84,84,84,0.1);
+    border-top: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(1rem);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 1);
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .lesson {

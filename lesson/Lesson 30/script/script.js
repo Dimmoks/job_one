@@ -17,3 +17,14 @@ console.log(typeof(y));
 x = Number(y);
 console.log(typeof(y));
 console.log(x + y)
+
+
+let typeofd;
+typeofd = 10 - '8';
+
+typeofd = parseInt('100like')
+typeofd = parseInt('nan100like')
+typeofd = parseFloat('100.211like')
+
+console.log(typeofd);
+console.log(typeof typeofd);
